@@ -122,3 +122,28 @@
   color: white;
   max-width: 566px;
 }
+
+.align-items-start {
+  align-items: flex-start!important;
+  width: 100%;
+}
+
+.contactme-text {
+  width: 255px;
+  height: 156px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  color: #262626;
+  margin: 4rem;
+}
+
+form {
+  margin: 3rem;
+}
+
+form button {
+  margin-top: 1rem;
+}
