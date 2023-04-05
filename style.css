@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --round: "Crete Round", serif;
+  --inter: "Inter", sans-serif;
+  --roboto: "Roboto", sans-serif;
+  --orange: #f55800;
+}
+
+.font-round {
+  font-family: var(--round);
+}
+
+.font-inter {
+  font-family: var(--inter);
+}
+
+.bg-black {
+  background-color: #1c1a19;
+}
+
+.list-none {
+  list-style: none;
+}
+
+.white-icon {
+  color: #fff;
+}
+
+.blue-text {
+    color: #091E42;
+}
+
+.card {
+    min-width: 370px !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--orange) !important;
+  border-color: var(--orange) !important;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 17px;
+}
+#home {
+  min-height: 800px;
+  background-image: url(./img/Illustration-header.svg);
+  background-repeat: no-repeat;
+  background-position: 700px -100px;
+  z-index: 100;
+}
+
+.home-content {
+  margin-left: 50px !important;
+}
+
+.home-title {
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 82px;
+  color: var(--orange);
+}
+
+.home-title-2 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 44px;
+  color: white;
+}
+
+.home-description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: white;
+  max-width: 566px;
+}
+
+.wprks-title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.line-gray {
+  height: 1px;
+  width: 80%;
+  background-color: #212121;
+}
+
+.work-description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  max-width: 448px;
+}
