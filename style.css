@@ -28,18 +28,18 @@
 }
 
 .blue-text {
-    color: #091E42;
+  color: #091e42;
 }
 
 .card {
-    min-width: 370px !important;
+  min-width: 370px !important;
 }
 
 .btn-primary {
   color: #fff;
   background-color: var(--orange) !important;
   border-color: var(--orange) !important;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: 700;
   font-size: 17px;
 }
@@ -99,13 +99,14 @@
 #aboutmyself {
   background-image: url(./img/illustration-aboutme.svg);
   background-repeat: no-repeat;
-  background-position: 700px;
+  background-position: 900px;
   z-index: 100;
 }
 
 .aboutmyself-content {
   margin-left: 50px !important;
-  width: 50%;
+  width: fit-content;
+  min-height: 500px;
 }
 
 .aboutmyself-title {
@@ -124,20 +125,19 @@
 }
 
 .align-items-start {
-  align-items: flex-start!important;
+  align-items: flex-start !important;
   width: 100%;
 }
 
+.contact-me {
+  min-height: 500px;
+}
+
 .contactme-text {
-  width: 255px;
-  height: 156px;
-  font-style: normal;
+  max-width: 455px;
   font-weight: 700;
-  font-size: 20px;
-  display: flex;
-  align-items: center;
-  color: #262626;
-  margin: 4rem;
+  font-size: 40px;
+  line-height: 52px;
 }
 
 form {
